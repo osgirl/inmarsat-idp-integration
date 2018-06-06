@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "clearblade,log,globals",
+    "execution_timeout": 0,
+    "logging_enabled": "true",
+    "name": "message_polygonsProcessor",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "message_polygonsProcessor.js"
+}
