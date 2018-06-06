@@ -1,0 +1,50 @@
+{
+    "asset_types": [
+        "Code Libraries",
+        "Code Services",
+        "Collections",
+        "Portals",
+        "Timers",
+        "Triggers",
+        "Devices"
+    ],
+    "author": {
+        "email": "community@clearblade.com"
+    },
+    "clouds": [
+        "Inmarsat"
+    ],
+    "description": "Inmarsat's IDP Integration",
+    "domains": [
+        "asset tracking"
+    ],
+    "gateways": [
+        "multitech"
+    ],
+    "image_url": "https://i.imgur.com/Tz0I4aX.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "tracking",
+        "real-time",
+        "asset",
+        "global",
+        "messaging",
+        "telematics",
+        "telemetry"
+    ],
+    "license": "MIT",
+    "name": "inmarsat-idp-integration",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [
+        "IDP"
+    ],
+    "things": [
+        "IDP",
+        "Satellite",
+        "Containers"
+    ],
+    "version": "1.0.0"
+}
