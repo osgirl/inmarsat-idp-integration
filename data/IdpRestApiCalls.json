@@ -1,0 +1,156 @@
+{
+    "app_id": "a4a7c0b10b9680b5a1f6e19c945e",
+    "collection_id": "d2a7c0b10bd2a3b28388d2bbf09201",
+    "items": [
+        {
+            "access_id": "AB12",
+            "api_operation": "get_return_messages",
+            "bytes_ota": 0,
+            "call_time": "2018-06-06T16:49:58.052Z",
+            "error_id": 21785,
+            "error_string": "API Error: Authentication Failed",
+            "item_id": "2548f860-8a86-47e6-b8e5-24a0eb1eb096",
+            "messages_count": 0,
+            "more_messages": false,
+            "next_start_id": -1,
+            "next_start_utc": "",
+            "success": false
+        },
+        {
+            "access_id": "AB12",
+            "api_operation": "get_return_messages",
+            "bytes_ota": 0,
+            "call_time": "2018-06-06T16:49:28.079Z",
+            "error_id": 21785,
+            "error_string": "API Error: Authentication Failed",
+            "item_id": "7f36bd9f-5682-4771-b8ae-10353ed23fab",
+            "messages_count": 0,
+            "more_messages": false,
+            "next_start_id": -1,
+            "next_start_utc": "",
+            "success": false
+        },
+        {
+            "access_id": "AB12",
+            "api_operation": "get_return_messages",
+            "bytes_ota": 0,
+            "call_time": "2018-06-06T16:49:43.055Z",
+            "error_id": 21785,
+            "error_string": "API Error: Authentication Failed",
+            "item_id": "81e45c43-5ad5-4f22-a97a-1f3642336d38",
+            "messages_count": 0,
+            "more_messages": false,
+            "next_start_id": -1,
+            "next_start_utc": "",
+            "success": false
+        },
+        {
+            "access_id": "AB12",
+            "api_operation": "get_return_messages",
+            "bytes_ota": 0,
+            "call_time": "2018-06-06T16:47:56.039Z",
+            "error_id": 21785,
+            "error_string": "API Error: Authentication Failed",
+            "item_id": "953418d6-66ab-4d4f-970f-11dc30ec6095",
+            "messages_count": 0,
+            "more_messages": false,
+            "next_start_id": -1,
+            "next_start_utc": "",
+            "success": false
+        },
+        {
+            "access_id": "AB12",
+            "api_operation": "get_return_messages",
+            "bytes_ota": 0,
+            "call_time": "2018-06-06T16:48:58.359Z",
+            "error_id": 21785,
+            "error_string": "API Error: Authentication Failed",
+            "item_id": "c58dc144-2efa-4fa1-99b1-a55ea59645ac",
+            "messages_count": 0,
+            "more_messages": false,
+            "next_start_id": -1,
+            "next_start_utc": "",
+            "success": false
+        },
+        {
+            "access_id": "AB12",
+            "api_operation": "get_return_messages",
+            "bytes_ota": 0,
+            "call_time": "2018-06-06T16:49:13.06Z",
+            "error_id": 21785,
+            "error_string": "API Error: Authentication Failed",
+            "item_id": "e05860ff-5ea0-4952-a00d-e167667ab571",
+            "messages_count": 0,
+            "more_messages": false,
+            "next_start_id": -1,
+            "next_start_utc": "",
+            "success": false
+        }
+    ],
+    "name": "IdpRestApiCalls",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "call_time",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "api_operation",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "success",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "error_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "error_string",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "messages_count",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "more_messages",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "next_start_utc",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "next_start_id",
+            "ColumnType": "bigint",
+            "PK": false
+        },
+        {
+            "ColumnName": "bytes_ota",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "access_id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
