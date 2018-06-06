@@ -1,0 +1,20 @@
+{
+    "allow_certificate_auth": false,
+    "allow_key_auth": true,
+    "certificate": "",
+    "description": "",
+    "device_uid": null,
+    "enabled": true,
+    "firstname": "Ottawa",
+    "has_keys": false,
+    "icon": "https://cdn4.iconfinder.com/data/icons/network-9/24/Wifi-Router-512.png",
+    "lastname": "POC",
+    "lastupdate": "2018-06-06T15:34:47.651Z",
+    "lat": "0.00032598",
+    "lng": "0.0010954699999999999",
+    "move": "true",
+    "name": "Ottawa POC",
+    "phone": null,
+    "state": "",
+    "type": "IDP + RPi Edge"
+}
