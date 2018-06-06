@@ -1,0 +1,651 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "3be38942-9f54-4797-99dd-d44eb17e1967": "xxs",
+            "9f910009-a285-4716-af29-f2f0b210d4af": "xxs",
+            "a8854fea-7a11-44b1-b023-185e643d81fe": "lg",
+            "fcf476ca-bf8d-4e71-bf89-fe447ec1e957": "lg"
+        },
+        "datasources": {
+            "11356cc0-653e-4da8-b87b-896448b5c7f8": {
+                "id": "11356cc0-653e-4da8-b87b-896448b5c7f8",
+                "name": "Tracker Config",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "ChangeLoraTrackingRate",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "16970d79-f068-40e5-9f3c-eb6afd9e7a15": {
+                "id": "16970d79-f068-40e5-9f3c-eb6afd9e7a15",
+                "name": "SelectedAsset",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "9d855fa0-0766-4ede-be29-763276e777bd": {
+                "id": "9d855fa0-0766-4ede-be29-763276e777bd",
+                "name": "IDP History",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "collection_name": "Mobiles",
+                    "refresh_interval": 0,
+                    "refresh_time": 10
+                },
+                "type": "CB_COLLECTION"
+            },
+            "c1404171-213d-4ecc-bba7-9b7a715f9de4": {
+                "id": "c1404171-213d-4ecc-bba7-9b7a715f9de4",
+                "name": "IDP MQTT",
+                "settings": {
+                    "TOPIC_NAME": "new_location"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            }
+        },
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "3be38942-9f54-4797-99dd-d44eb17e1967": {
+                "lg": [],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "9f910009-a285-4716-af29-f2f0b210d4af": {
+                "lg": [],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "a8854fea-7a11-44b1-b023-185e643d81fe": {
+                "lg": [
+                    {
+                        "h": 1,
+                        "i": "d7c32c94-8d3f-4cb9-8b88-8a1579800054",
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "fcf476ca-bf8d-4e71-bf89-fe447ec1e957": {
+                "lg": [
+                    {
+                        "h": 1,
+                        "i": "bfd14573-8fba-4fef-bca8-dd297d0890e3",
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 4,
+                        "i": "00e4dbb6-03f0-4cec-80d2-6d840e52a62b",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "7e6771d6-150b-4fe2-882d-e20a1e36b781",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 10,
+                        "y": 0
+                    },
+                    {
+                        "h": 4,
+                        "i": "c7656c14-9892-4df0-a773-994f32391941",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "1a61ea93-316d-45b4-a5af-78561a163cf2",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 10,
+                        "y": 2
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "00e4dbb6-03f0-4cec-80d2-6d840e52a62b": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Location"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "00e4dbb6-03f0-4cec-80d2-6d840e52a62b",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "a8854fea-7a11-44b1-b023-185e643d81fe",
+                    "tabIds": [
+                        "a8854fea-7a11-44b1-b023-185e643d81fe"
+                    ],
+                    "tabTitles": {
+                        "a8854fea-7a11-44b1-b023-185e643d81fe": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "1a61ea93-316d-45b4-a5af-78561a163cf2": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Commands"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "1a61ea93-316d-45b4-a5af-78561a163cf2",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "3be38942-9f54-4797-99dd-d44eb17e1967",
+                    "tabIds": [
+                        "3be38942-9f54-4797-99dd-d44eb17e1967"
+                    ],
+                    "tabTitles": {
+                        "3be38942-9f54-4797-99dd-d44eb17e1967": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "7e6771d6-150b-4fe2-882d-e20a1e36b781": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Alerts"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "7e6771d6-150b-4fe2-882d-e20a1e36b781",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "9f910009-a285-4716-af29-f2f0b210d4af",
+                    "tabIds": [
+                        "9f910009-a285-4716-af29-f2f0b210d4af"
+                    ],
+                    "tabTitles": {
+                        "9f910009-a285-4716-af29-f2f0b210d4af": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "c7656c14-9892-4df0-a773-994f32391941": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Asset List"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "c7656c14-9892-4df0-a773-994f32391941",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "fcf476ca-bf8d-4e71-bf89-fe447ec1e957",
+                    "tabIds": [
+                        "fcf476ca-bf8d-4e71-bf89-fe447ec1e957"
+                    ],
+                    "tabTitles": {
+                        "fcf476ca-bf8d-4e71-bf89-fe447ec1e957": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true
+        },
+        "widgets": {
+            "bfd14573-8fba-4fef-bca8-dd297d0890e3": {
+                "id": "bfd14573-8fba-4fef-bca8-dd297d0890e3",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeFontColor": "#000000",
+                    "activeItemBackgroundColor": "#6e8592",
+                    "eventTarget": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": ""
+                    },
+                    "fontColor": "#000000",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "9d855fa0-0766-4ede-be29-763276e777bd",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var assetData = this.datasource;\nvar assetList = [];\n\nfor (var i=0; i \u003c assetData.length; i++) {\n    assetList.push({\"label\": assetData[i].data.name});\n}\n\n/*\nassetList.sort(function(a, b) {\n    var textA = a.toUpperCase();\n    var textB = b.toUpperCase();\n    return (textA \u003c textB) ? -1 : (textA \u003e textB) ? 1 : 0;\n});\n*/\n\nreturn assetList;\n"
+                        }
+                    },
+                    "listTitle": "",
+                    "titleColor": "#000000",
+                    "trackingColumnName": "item_id"
+                },
+                "tab": "fcf476ca-bf8d-4e71-bf89-fe447ec1e957",
+                "type": "LIST_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "d7c32c94-8d3f-4cb9-8b88-8a1579800054": {
+                "id": "d7c32c94-8d3f-4cb9-8b88-8a1579800054",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "9d855fa0-0766-4ede-be29-763276e777bd",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "#map {\n    position:absolute;\n}",
+                                "HTML": "\u003c!DOCTYPE html\u003e\n\u003cdiv id='map' class='rounded' style='width: 100%; height: 100%;'\u003e\u003c/div\u003e",
+                                "JavaScript": "//JavaScript\r\nconfig = {\r\n    accessToken: 'pk.eyJ1IjoiZ2JydWNlcGF5bmUiLCJhIjoiY2o5NXRjN3k2MXJoMjM1cWJpczNneGdhcCJ9.8P1eK3BRCk58arAOwaQ-RA',\r\n    defaultzoom: 2,\r\n    center: [0, 0], //Note lat/lng are opposite of Google maps\r\n    targetContainer: \"map\"\r\n};\r\n\r\n\r\n//Load the scripts/css files\r\nif (typeof(mapboxgl) === \"undefined\") {\r\n    head.load([\"//api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css\", \"//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.css\"]);\r\n    head.js([\"//api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js\", \"//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.js\"], init);\r\n} else {\r\n    if (typeof(this.datasource)!==\"undefined\") {\r\n        //Updates for drawing markers\r\n        if (document.getElementById(config.targetContainer).innerHTML === \"\")\r\n            init();\r\n        var ds = this.datasource;\r\n        for (i=0; i \u003c ds.length; i++) {\r\n            var asset = ds[i].data;\r\n            if (asset.lat !== null \u0026\u0026 asset.lat !== 91) {\r\n                if (markerList[asset.name]) {\r\n                    markerList[asset.name].setLngLat([asset.lng, asset.lat]);\r\n                } else {\r\n                    var el = document.createElement('div');\r\n                    // create the popup\r\n                    var popup = new mapboxgl.Popup()\r\n                        .setHTML(asset.name + '\u003cbr /\u003e' + asset.timestamp + '\u003cbr /\u003e' + asset.event);\r\n                    el.style = \"background-image: url(\" + asset.asset_icon_url + \");background-size: cover;width: 16px;height: 16px;border-radius: 50%;cursor: pointer;\"; //DS.icon is for the image\r\n                    var marker = new mapboxgl.Marker(el)\r\n                        .setLngLat([asset.lng, asset.lat])\r\n                        .setPopup(popup)\r\n                        .addTo(mapObj);\r\n                    markerList[asset.name] = marker;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n//Renders the maps\r\nfunction init() {\r\n    window.markerList = [];\r\n    mapboxgl.accessToken = config.accessToken;\r\n    //if (typeof(window.mapObj)===\"undefined\") {\r\n    window.mapObj = new mapboxgl.Map({\r\n        style: 'mapbox://styles/mapbox/streets-v10',\r\n        zoom: config.defaultzoom,\r\n        pitch: 0,\r\n        bearing: 0,\r\n        hash: true,\r\n        container: config.targetContainer,\r\n        center: config.center\r\n    });\r\n    //}\r\n    window.mapObj.setCenter(config.center);\r\n    window.mapObj.setZoom(config.defaultzoom);\r\n    mapObj.addControl(new mapboxgl.FullscreenControl());\r\n    mapObj.addControl(new mapboxgl.ScaleControl());\r\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "a8854fea-7a11-44b1-b023-185e643d81fe",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "A basic portal demo with data from IDP.",
+    "last_updated": "06 Jun 18 16:23 UTC",
+    "name": "IDP Demo 1",
+    "system_key": "a4a7c0b10b9680b5a1f6e19c945e",
+    "type": "v2"
+}
