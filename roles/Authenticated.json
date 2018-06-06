@@ -1,0 +1,214 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "ChangeLoraTrackingRate",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "GetReturnMessagesFromMailboxes",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "devices_resetLocations",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "generateDeviceMovements",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "globalsat_alert",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "message_monitorSafetyPolygons",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "message_polygonsProcessor",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "message_publishPolygons",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_devicesList",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "aaa7c0b10bc6d795e2b5f5d7f833",
+                "Items": [],
+                "Level": 5,
+                "Name": "Analog_Input_Registers"
+            },
+            {
+                "Columns": [],
+                "ID": "aca7c0b10be8bfd69af6a9e8cabf01",
+                "Items": [],
+                "Level": 5,
+                "Name": "Analog_Output_Holding_Registers"
+            },
+            {
+                "Columns": [],
+                "ID": "aea7c0b10bfcd3cea380b9c8b864",
+                "Items": [],
+                "Level": 5,
+                "Name": "Discrete_Input_Contacts"
+            },
+            {
+                "Columns": [],
+                "ID": "b2a7c0b10bc8c1f3f396b4f58b25",
+                "Items": [],
+                "Level": 5,
+                "Name": "Discrete_Output_Coils"
+            },
+            {
+                "Columns": [],
+                "ID": "eca9c0b10bb29cf5e7fb839bf58301",
+                "Items": [],
+                "Level": 1,
+                "Name": "Mobiles"
+            },
+            {
+                "Columns": [],
+                "ID": "a0eec0a20be0858c8493958591de01",
+                "Items": [],
+                "Level": 5,
+                "Name": "a0eec0a20be0858c8493958591de01"
+            },
+            {
+                "Columns": [],
+                "ID": "aad3f6a10bf4ecc7b6efe7ff93a401",
+                "Items": [],
+                "Level": 1,
+                "Name": "aad3f6a10bf4ecc7b6efe7ff93a401"
+            },
+            {
+                "Columns": [],
+                "ID": "c8f8fc9e0bfebe82e4f4dfa4b9f601",
+                "Items": [],
+                "Level": 1,
+                "Name": "c8f8fc9e0bfebe82e4f4dfa4b9f601"
+            },
+            {
+                "Columns": [],
+                "ID": "cef7b4ad0ba683c0e1adeacaf84c",
+                "Items": [],
+                "Level": 5,
+                "Name": "cef7b4ad0ba683c0e1adeacaf84c"
+            },
+            {
+                "Columns": [],
+                "ID": "d4f8b4ad0b84f3c1ce999789f7e601",
+                "Items": [],
+                "Level": 5,
+                "Name": "d4f8b4ad0b84f3c1ce999789f7e601"
+            },
+            {
+                "Columns": [],
+                "ID": "d6f9b4ad0bde90e0acafd8a38aab01",
+                "Items": [],
+                "Level": 5,
+                "Name": "d6f9b4ad0bde90e0acafd8a38aab01"
+            },
+            {
+                "Columns": [],
+                "ID": "e0c8b4ad0bf894fac5abddeeea0d",
+                "Items": [],
+                "Level": 5,
+                "Name": "e0c8b4ad0bf894fac5abddeeea0d"
+            },
+            {
+                "Columns": [],
+                "ID": "e4e6f6a10b88ef9390c3b4f6f121",
+                "Items": [],
+                "Level": 15,
+                "Name": "e4e6f6a10b88ef9390c3b4f6f121"
+            },
+            {
+                "Columns": [],
+                "ID": "f8a9c0b10bdadaf4b9d8a7a5e2f101",
+                "Items": [],
+                "Level": 15,
+                "Name": "geofences"
+            },
+            {
+                "Columns": [],
+                "ID": "fca9c0b10b9a8eb6b5f08ff6dd1d",
+                "Items": [],
+                "Level": 5,
+                "Name": "idp_api_error_codes"
+            },
+            {
+                "Columns": [],
+                "ID": "80aac0b10b90b9a4e3c8fcf8dc19",
+                "Items": [],
+                "Level": 1,
+                "Name": "properties"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 1
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 1
+        },
+        "Portals": [
+            {
+                "Level": 1,
+                "Name": "IDP Demo 1",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 0,
+                "Name": "Asset Tracking Portal",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
