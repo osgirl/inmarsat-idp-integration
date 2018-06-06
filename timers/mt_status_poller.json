@@ -1,0 +1,8 @@
+{
+    "description": "Polls IDP network gateway for status of forward messages",
+    "frequency": 30,
+    "name": "mt_status_poller",
+    "repeats": -1,
+    "service_name": "GetForwardStatusesFromMailboxes",
+    "start_time": "2017-11-23T22:06:03Z"
+}
