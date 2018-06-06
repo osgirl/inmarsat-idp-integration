@@ -1,0 +1,276 @@
+{
+    "app_id": "a4a7c0b10b9680b5a1f6e19c945e",
+    "collection_id": "eca9c0b10bb29cf5e7fb839bf58301",
+    "items": [
+        {
+            "access_id": "MB545",
+            "alt": null,
+            "asset_icon_url": "https://cdn4.iconfinder.com/data/icons/network-9/24/Wifi-Router-512.png",
+            "asset_name": "M-Connected IDP-280",
+            "bat": null,
+            "edge_type": "Conduit AEP",
+            "event": null,
+            "firstname": null,
+            "hdg": 0,
+            "icon": "https://cdn4.iconfinder.com/data/icons/network-9/24/Wifi-Router-512.png",
+            "item_id": "12c57e6d-b504-4177-9b11-517ca3bb6814",
+            "lastname": null,
+            "lat": 55.02235,
+            "lng": -1.423367,
+            "mobile_id": "01290209SKY61A2",
+            "modem_type": "IDP-100",
+            "name": "M-Connected IDP-280",
+            "spd": 0,
+            "timestamp": "2017-12-13T12:53:43Z"
+        },
+        {
+            "access_id": "MB141",
+            "alt": 0,
+            "asset_icon_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/106793-200.png",
+            "asset_name": "GlobalSat HD2418",
+            "bat": 96,
+            "edge_type": "Conduit AEP",
+            "event": "PeriodicReport",
+            "firstname": null,
+            "hdg": 0,
+            "icon": "https://d30y9cdsu7xlg0.cloudfront.net/png/106793-200.png",
+            "item_id": "555aa52f-57f7-4443-9dcc-f66e05eea22d",
+            "lastname": null,
+            "lat": 54.904415,
+            "lng": -1.377328,
+            "mobile_id": "000DB53113943560",
+            "modem_type": "GlobalSat LM-130",
+            "name": "GlobalSat HD2418",
+            "spd": 0,
+            "timestamp": "2017-12-13T16:38:48Z"
+        },
+        {
+            "access_id": "MB61",
+            "alt": null,
+            "asset_icon_url": "http://www.pacdatasys.com.au/media/ac757128-006e-4ef7-b427-d6c241f14050",
+            "asset_name": "UK SatVUE Demo",
+            "bat": null,
+            "edge_type": "ORBCOMM IDP-690",
+            "event": null,
+            "firstname": null,
+            "hdg": null,
+            "icon": "http://www.pacdatasys.com.au/media/ac757128-006e-4ef7-b427-d6c241f14050",
+            "item_id": "57fdaf1a-061b-465d-88ac-22c863a76347",
+            "lastname": null,
+            "lat": null,
+            "lng": null,
+            "mobile_id": "01000346SKYA83F",
+            "modem_type": "IDP-100",
+            "name": "UK SatVUE Demo",
+            "spd": null,
+            "timestamp": null
+        },
+        {
+            "access_id": "MB141",
+            "alt": null,
+            "asset_icon_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/182760-200.png",
+            "asset_name": "Ottawa FleetInt Demo",
+            "bat": null,
+            "edge_type": "ORBCOMM IDP-782",
+            "event": null,
+            "firstname": null,
+            "hdg": null,
+            "icon": "https://d30y9cdsu7xlg0.cloudfront.net/png/182760-200.png",
+            "item_id": "91a4486e-4ca1-49bd-8089-fc078f76d3a8",
+            "lastname": null,
+            "lat": null,
+            "lng": null,
+            "mobile_id": "01102484SKY5B21",
+            "modem_type": "IDP-100",
+            "name": "Ottawa FleetInt Demo",
+            "spd": null,
+            "timestamp": null
+        },
+        {
+            "access_id": "MB141",
+            "alt": 0,
+            "asset_icon_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/106793-200.png",
+            "asset_name": "GlobalSat HD2414",
+            "bat": 96,
+            "edge_type": "Conduit AEP",
+            "event": "PeriodicReport",
+            "firstname": "John",
+            "hdg": 0,
+            "icon": "https://d30y9cdsu7xlg0.cloudfront.net/png/106793-200.png",
+            "item_id": "9340f74a-4223-4cad-a201-2503eb3a56a5",
+            "lastname": "Doe",
+            "lat": 45.285082,
+            "lng": -75.84839,
+            "mobile_id": "000DB53113633557",
+            "modem_type": "GlobalSat LT-100H",
+            "name": "GlobalSat HD2414",
+            "spd": 0,
+            "timestamp": "2017-12-10T00:02:21Z"
+        },
+        {
+            "access_id": "MB141",
+            "alt": null,
+            "asset_icon_url": "https://m2mconnectivity.com.au/wp-content/uploads/2017/06/Orbcomm-OGi-Satellite-Modem.png",
+            "asset_name": "Ottawa Modem Demo 2",
+            "bat": null,
+            "edge_type": "TBD",
+            "event": null,
+            "firstname": null,
+            "hdg": null,
+            "icon": "https://m2mconnectivity.com.au/wp-content/uploads/2017/06/Orbcomm-OGi-Satellite-Modem.png",
+            "item_id": "ae31dabd-95d9-439a-8eb1-e6c6ee3c9c19",
+            "lastname": null,
+            "lat": null,
+            "lng": null,
+            "mobile_id": "01229736SKY6085",
+            "modem_type": "OGI",
+            "name": "Ottawa Modem Demo 2",
+            "spd": null,
+            "timestamp": null
+        },
+        {
+            "access_id": "MB141",
+            "alt": 0,
+            "asset_icon_url": "https://cdn4.iconfinder.com/data/icons/network-9/24/Wifi-Router-512.png",
+            "asset_name": "Ottawa Modem Demo 1",
+            "bat": null,
+            "edge_type": "Conduit AEP / RPi3",
+            "event": null,
+            "firstname": "Ottawa",
+            "hdg": 426,
+            "icon": "https://cdn4.iconfinder.com/data/icons/network-9/24/Wifi-Router-512.png",
+            "item_id": "bd0b9751-2cf5-492a-8c9a-5b9d18748ba3",
+            "lastname": "Test",
+            "lat": 45.285217,
+            "lng": -75.848533,
+            "mobile_id": "01105596SKY37E9",
+            "modem_type": "IDP-100",
+            "name": "Ottawa Modem Demo 1",
+            "spd": 0,
+            "timestamp": "2017-11-03T16:49:30Z"
+        },
+        {
+            "access_id": "MB141",
+            "alt": 0,
+            "asset_icon_url": "https://d30y9cdsu7xlg0.cloudfront.net/png/106793-200.png",
+            "asset_name": "mDot 19050240",
+            "bat": null,
+            "edge_type": "Conduit AEP",
+            "event": null,
+            "firstname": null,
+            "hdg": 0,
+            "icon": "https://d30y9cdsu7xlg0.cloudfront.net/png/106793-200.png",
+            "item_id": "cbaae305-e5ed-40d3-85a4-8558039352fb",
+            "lastname": null,
+            "lat": 38.698942,
+            "lng": -9.184517,
+            "mobile_id": "008000000000D89D",
+            "modem_type": "mDot",
+            "name": "mDot 19050240",
+            "spd": 0,
+            "timestamp": "2017-11-07T17:01:25Z"
+        }
+    ],
+    "name": "Mobiles",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "mobile_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "modem_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "edge_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "access_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_icon_url",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "alt",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "spd",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "hdg",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "double",
+            "PK": false
+        },
+        {
+            "ColumnName": "lng",
+            "ColumnType": "double",
+            "PK": false
+        },
+        {
+            "ColumnName": "event",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "firstname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lastname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "bat",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
