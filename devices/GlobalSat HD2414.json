@@ -1,0 +1,20 @@
+{
+    "allow_certificate_auth": false,
+    "allow_key_auth": true,
+    "certificate": "",
+    "description": "",
+    "device_uid": null,
+    "enabled": true,
+    "firstname": null,
+    "has_keys": false,
+    "icon": null,
+    "lastname": null,
+    "lastupdate": "2018-06-06T15:34:47.719Z",
+    "lat": null,
+    "lng": null,
+    "move": null,
+    "name": "GlobalSat HD2414",
+    "phone": null,
+    "state": "",
+    "type": "GlobalSat LT-100H"
+}
