@@ -1,0 +1,16 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 0,
+    "logging_enabled": "true",
+    "name": "globalsat_alert",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "globalsat_alert.js"
+}
