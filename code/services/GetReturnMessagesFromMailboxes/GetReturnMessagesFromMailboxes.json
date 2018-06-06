@@ -1,0 +1,15 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade,idpNetworkGatewayV1Lib,notifyIdpLib,base64Lib,idpCollectionsLib",
+    "execution_timeout": 0,
+    "logging_enabled": "true",
+    "name": "GetReturnMessagesFromMailboxes",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "GetReturnMessagesFromMailboxes.js"
+}
