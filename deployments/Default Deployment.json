@@ -1,0 +1,142 @@
+{
+    "assets": [
+        {
+            "asset_class": "devices",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "users",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "services",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "libraries",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "timers",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "triggers",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "portals",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "plugins",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "IdpRawMessages",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "IdpRestApiCalls",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Mailboxes",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Mobiles",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "properties",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "geofences",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "idp_api_error_codes",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Discrete_Input_Contacts",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Discrete_Output_Coils",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Analog_Input_Registers",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Analog_Output_Holding_Registers",
+            "asset_id": "",
+            "deployment": "Default Deployment",
+            "member": "Default Deployment_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "Deployment created by the database migration process. It reflects the old semantics for ClearBlade systems",
+    "edges": [
+        "___ALL_EDGES___"
+    ],
+    "name": "Default Deployment"
+}
