@@ -1,0 +1,38 @@
+{
+    "app_id": "a4a7c0b10b9680b5a1f6e19c945e",
+    "collection_id": "e8a9c0b10be4cfef94fccf96c5d501",
+    "items": [
+        {
+            "access_id": "AB12",
+            "item_id": "26aa0592-2632-495d-8a46-badc3205ba1d",
+            "name": "Sat",
+            "password": "example_password"
+        }
+    ],
+    "name": "Mailboxes",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "access_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "password",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
