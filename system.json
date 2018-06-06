@@ -1,0 +1,153 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "devices",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "users",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "services",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "libraries",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "timers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "triggers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "portals",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "plugins",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "IdpRawMessages",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "IdpRestApiCalls",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "Mailboxes",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "Mobiles",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "properties",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "geofences",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "idp_api_error_codes",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "Discrete_Input_Contacts",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "Discrete_Output_Coils",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "Analog_Input_Registers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "Analog_Output_Holding_Registers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "Deployment created by the database migration process. It reflects the old semantics for ClearBlade systems",
+            "edges": [
+                "___ALL_EDGES___"
+            ],
+            "name": "Default Deployment"
+        }
+    ],
+    "description": "Inmarsat's IDP Integration",
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "inmarsat-idp-integration",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "a4a7c0b10b9680b5a1f6e19c945e",
+    "system_secret": "A4A7C0B10BACA5DAD3C289ED99B401"
+}
