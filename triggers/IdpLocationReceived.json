@@ -1,0 +1,16 @@
+{
+    "event_definition": {
+        "def_keys": [
+            "collectionId",
+            "collectionName"
+        ],
+        "def_module": "Data",
+        "def_name": "ItemCreated",
+        "visibility": true
+    },
+    "key_value_pairs": {
+        "collectionId": "88edfc9e0b9cfccd93ea8ce2eafc01"
+    },
+    "name": "IdpLocationReceived",
+    "service_name": "ParseLocationMessage"
+}
