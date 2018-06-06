@@ -1,0 +1,17 @@
+{
+    "event_definition": {
+        "def_keys": [
+            "collectionId",
+            "collectionName",
+            "itemId"
+        ],
+        "def_module": "Data",
+        "def_name": "ItemUpdated",
+        "visibility": true
+    },
+    "key_value_pairs": {
+        "collectionId": "e4e6f6a10b88ef9390c3b4f6f121"
+    },
+    "name": "DB Change",
+    "service_name": "message_publishPolygons"
+}
