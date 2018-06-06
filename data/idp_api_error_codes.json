@@ -1,0 +1,717 @@
+{
+    "app_id": "a4a7c0b10b9680b5a1f6e19c945e",
+    "collection_id": "fca9c0b10b9a8eb6b5f08ff6dd1d",
+    "items": [
+        {
+            "description": "",
+            "id": 0,
+            "item_id": "00ce34a3-8911-4d89-9e83-8a03686baead",
+            "name": "NO_ERRORS"
+        },
+        {
+            "description": "Invalid broadcast ID, no such ID in the system.",
+            "id": 12310,
+            "item_id": "066c4aa5-21c0-4d7e-b449-63a7d1631952",
+            "name": "ERR_INVALID_BROADCAST_ID_NO_SUCH_ID"
+        },
+        {
+            "description": "Invalid MobileID",
+            "id": 50,
+            "item_id": "06f69b07-c447-4a5f-bb5d-fbb64a32f107",
+            "name": "ERR_INVALID_MT_SN_LENGTH"
+        },
+        {
+            "description": "Sending of messages with this SIN and MIN pair is restricted.",
+            "id": 21794,
+            "item_id": "08d964d9-2e54-4183-8c67-569dde826fea",
+            "name": "ERR_RESTRICTED_MESSAGE"
+        },
+        {
+            "description": "Invalid message priority",
+            "id": 17413,
+            "item_id": "0962177d-c9fe-4bac-8e9a-d3031ce05aff",
+            "name": "ERR_PRIORITY_INVALID"
+        },
+        {
+            "description": "Gateway is unable to parse the message content.",
+            "id": 116,
+            "item_id": "0b918ed0-00fc-47e1-84b9-a65b758dce40",
+            "name": "ERR_INVALID_MESSAGE_XML_CONTENT"
+        },
+        {
+            "description": "Invalid beam number",
+            "id": 17415,
+            "item_id": "0c737cd2-e06b-438f-a8f5-5afede78204b",
+            "name": "ERR_INVALID_BEAM"
+        },
+        {
+            "description": "Invalid MobileID - Mobile ID does not exist or is not activated",
+            "id": 16897,
+            "item_id": "0d75db13-b9e9-4fda-be09-10b89b13e969",
+            "name": "ERR_INVALID_DESTINATION_ID_NO_SUCH_DESTINATION"
+        },
+        {
+            "description": "Too many same high-water mark GET requests detected",
+            "id": 21817,
+            "item_id": "0e806198-b429-4bcf-8a7e-a27678ee6293",
+            "name": "ERR_UNCHANGED_HWM_DETECTED"
+        },
+        {
+            "description": "MobileID not registered",
+            "id": 16900,
+            "item_id": "0e999bdd-04d4-41cb-a0ce-072c61f9b3fd",
+            "name": "ERR_DESTINATION_NOT_REGISTERED"
+        },
+        {
+            "description": "Invalid Mailbox or Mailbox related data.",
+            "id": 26,
+            "item_id": "0f5e036f-58b3-48d0-8c2b-b7cd88db9b80",
+            "name": "ERR_INVALID_CUSTOMER"
+        },
+        {
+            "description": "API intialisation Failure",
+            "id": 44,
+            "item_id": "19a62093-12fc-400f-a145-b62d4cdd39f4",
+            "name": "ERR_WS_FAILED_TO_REINITIALIZE_PROPERLY"
+        },
+        {
+            "description": "Internal error - invalid error code value.",
+            "id": 15,
+            "item_id": "19e934c1-2f66-4103-823f-cf248e81eb13",
+            "name": "ERR_UNKNOWN_ERROR_CODE"
+        },
+        {
+            "description": "Terminal beam unknown",
+            "id": 17149,
+            "item_id": "1bce9aa4-10de-47a4-9120-a2f5c75346de",
+            "name": "ERR_TERMINAL_BEAM_UNKNOWN"
+        },
+        {
+            "description": "Maximum destination MobileID count in this call exceeded.",
+            "id": 98,
+            "item_id": "1d6856bc-586c-497a-8193-fb0644621e9c",
+            "name": "ERR_MAX_TERMINAL_COUNT_PER_CALL_EXCEEDED"
+        },
+        {
+            "description": "Unknown MobileID ",
+            "id": 513,
+            "item_id": "1f60e1dc-f3cf-4ae9-8923-979ab0c80729",
+            "name": "ERR_INVALID_TERMINAL_ID_NO_SUCH_TERMINAL"
+        },
+        {
+            "description": "Unable to cancel a message, the message does not exist",
+            "id": 17683,
+            "item_id": "24916952-7673-4d00-9a57-30c3fdb8ff4b",
+            "name": "ERR_CANCEL_MSG_DOES_NOT_EXIST"
+        },
+        {
+            "description": "Invalid MobileID - MobileID is not assigned to this mailbox",
+            "id": 16898,
+            "item_id": "24c93886-3200-483c-891a-94c76e309444",
+            "name": "ERR_INVALID_DESTINATION_ID_NOT_YOUR_DESTINATION"
+        },
+        {
+            "description": "API call frequency too high. See Documentation of polling restrictions",
+            "id": 16,
+            "item_id": "2ab436fc-a488-4afb-a93a-13fe392c7845",
+            "name": "ERR_CUSTOMER_DELAYED"
+        },
+        {
+            "description": "The maximum number of queued messages for a specified mobile was reached",
+            "id": 17681,
+            "item_id": "2d896d6a-097e-4dff-a7d9-99291b54684c",
+            "name": "ERR_MAX_QUEUED_MESSAGES_FOR_MOBILE_REACHED"
+        },
+        {
+            "description": "The message you wish to cancel cannot be cancelled any more.",
+            "id": 115,
+            "item_id": "2f33f061-8712-417c-886c-4be4e8816ae4",
+            "name": "ERR_UNABLE_TO_CANCEL_THE_MESSAGE"
+        },
+        {
+            "description": "Error code returned by a PPC or a terminal.",
+            "id": 515,
+            "item_id": "2fa91a47-49cf-4418-a857-37c647e1e263",
+            "name": "ERR_TERMINAL_BEING_USED_BY_PPC"
+        },
+        {
+            "description": "Invalid interval of repeating a message",
+            "id": 17153,
+            "item_id": "34ca14b2-6f13-4a54-8f36-7ab1cefabe60",
+            "name": "ERR_INVALID_REPEAT_INTERVAL"
+        },
+        {
+            "description": "Message not ACK-ed due to hub connection loss",
+            "id": 17686,
+            "item_id": "358da61e-a6d4-44e6-88d9-0f183f312929",
+            "name": "ERR_MESSAGE_ACK_ERROR_CONNECTION_LOSS"
+        },
+        {
+            "description": "Mobile generated error: unable to allocate message buffer.",
+            "id": 12313,
+            "item_id": "3652d163-0307-4cb8-820d-eda46536211c",
+            "name": "ERR_MT_ERROR_UNABLE_TO_ALLOCATE_MESSAGE_BUFFER"
+        },
+        {
+            "description": "Not authorized to use the message",
+            "id": 16904,
+            "item_id": "373bf65b-09f9-4b74-8c29-164b321a1ffa",
+            "name": "ERR_NOT_AUTHORIZED_TO_USE_THE_MESSAGE"
+        },
+        {
+            "description": "Invalid MobileID",
+            "id": 512,
+            "item_id": "37ea90c1-e780-4c6f-9820-cf199f623a8c",
+            "name": "ERR_INVALID_TERMINAL_ID_GENERAL"
+        },
+        {
+            "description": "Invalid data length or checksum; returned by the LES  or the  terminal",
+            "id": 261,
+            "item_id": "38e69a39-8c6b-49cb-bd31-e48cb9313618",
+            "name": "ERR_INVALID_DATA_LENGTH_OR_CHECKSUM"
+        },
+        {
+            "description": "Terminal was reset  never had chance to be transmitted",
+            "id": 21815,
+            "item_id": "39566308-41c6-445b-aefa-57616ead6bb5",
+            "name": "ERR_NDN_TERMINAL_RESET_NO_CHANCE_TO_TRANSMIT"
+        },
+        {
+            "description": "Invalid MPC ID",
+            "id": 259,
+            "item_id": "3b24ece6-4efb-48a4-8ee2-b2ed2793420f",
+            "name": "ERR_INVALID_VAR_ID"
+        },
+        {
+            "description": "Message destination is not provisioned for this gateway.",
+            "id": 21819,
+            "item_id": "3bcc956c-e310-4247-9f47-4a4100500ff1",
+            "name": "ERR_INVALID_GATEWAY_ID"
+        },
+        {
+            "description": "Non delivery notification reason: terminal was reset",
+            "id": 21792,
+            "item_id": "3d44c11d-f427-47c8-9a8e-00c71ac56248",
+            "name": "ERR_NDN_TERMINAL_WAS_RESET"
+        },
+        {
+            "description": "Low power mode terminal message is too long.",
+            "id": 21797,
+            "item_id": "3df06812-c1e0-4c3c-86ef-8237f3018f65",
+            "name": "ERR_LOW_POWER_MODE_MESSAGE_TOO_LONG"
+        },
+        {
+            "description": "Too many forward messages requested.",
+            "id": 90,
+            "item_id": "40c6a970-6687-46ba-af0c-64162c24bd63",
+            "name": "ERR_TOO_MANY_MESSAGES_REQUESTED"
+        },
+        {
+            "description": "Invalid subscription settings sent.",
+            "id": 35,
+            "item_id": "40dffa98-4b27-4eb2-9ba7-f23c2b83b868",
+            "name": "ERR_INVALID_SUBSCRIPTION_INFO"
+        },
+        {
+            "description": "Message timeout  never had chance to be transmitted",
+            "id": 21812,
+            "item_id": "4448c475-875e-44b7-a246-cbbe8ae40763",
+            "name": "ERR_NDN_TIMEOUT_NO_CHANCE_TO_TRANSMIT"
+        },
+        {
+            "description": "Message received from the LES is shorter than expected",
+            "id": 1,
+            "item_id": "47678b02-5be1-49de-9782-4ff44f48e74d",
+            "name": "ERR_BUFFER_TOO_SHORT"
+        },
+        {
+            "description": "Internal Gateway exception.",
+            "id": 128,
+            "item_id": "4b5c4f99-d9cf-42cf-b931-02fd485f8997",
+            "name": "ERR_INTERNAL_EXCEPTION"
+        },
+        {
+            "description": "Invalid MobileID - general",
+            "id": 16896,
+            "item_id": "4d79977e-3c10-4907-b33e-0846d7d81cff",
+            "name": "ERR_INVALID_DESTINATION_ID_GENERAL"
+        },
+        {
+            "description": "Gateway service authentication error; Invalid Access ID or Password.",
+            "id": 21785,
+            "item_id": "4ec968b4-5e77-46fe-a7bc-cb0a9fca89c1",
+            "name": "ERR_AUTHENTICATION_ERROR"
+        },
+        {
+            "description": "MPC Login in progress",
+            "id": 17674,
+            "item_id": "4fac01f2-fe9f-4b87-b32f-e740ce6e1951",
+            "name": "ERR_VAR_LOGIN_IN_PROGRESS"
+        },
+        {
+            "description": "Invalid Password; returned by the LES  or the  terminal",
+            "id": 262,
+            "item_id": "572c5234-e87e-45c5-a021-e85a6babda42",
+            "name": "ERR_INVALID_PASSWORD"
+        },
+        {
+            "description": "The maximum number of active messages reached",
+            "id": 17682,
+            "item_id": "58d142bf-73c9-4c80-96fe-8f8744da609f",
+            "name": "ERR_MAX_ACTIVE_MSGS_REACHED"
+        },
+        {
+            "description": "Missing MobileID",
+            "id": 4,
+            "item_id": "58de6a16-3507-4574-ac9a-d3ed3b2f00b6",
+            "name": "ERR_MT_SN_MISSING"
+        },
+        {
+            "description": "Message type not supported by the destination.",
+            "id": 12307,
+            "item_id": "59637aee-3eea-476b-9c7e-410f4b5b562b",
+            "name": "ERR_UNSUPPORTED_MESSAGE"
+        },
+        {
+            "description": "Invalid num of times to send a message",
+            "id": 17152,
+            "item_id": "5a23d018-4065-47fc-b475-cea6efd3e660",
+            "name": "ERR_INVALID_RESEND_COUNT"
+        },
+        {
+            "description": "Authorisation Error",
+            "id": 24,
+            "item_id": "5b95fc5c-bf82-42e2-945c-884a7d384fdb",
+            "name": "ERR_INVALID_ROLE"
+        },
+        {
+            "description": "Non delivery notification reason: too many messages",
+            "id": 21788,
+            "item_id": "5e2499e9-55be-485c-b89e-d5cb9cd87860",
+            "name": "ERR_NDN_TOO_MANY_MESSAGES"
+        },
+        {
+            "description": "MobileID is not provisioned correctly on the Gateway",
+            "id": 40,
+            "item_id": "63ed7432-6c8d-47fc-8039-60235cac3dcb",
+            "name": "ERR_INVALID_CUSTOMER_GW_VAR_ID"
+        },
+        {
+            "description": "Authorisation Error",
+            "id": 25,
+            "item_id": "6f3915e8-508a-439f-9147-fe78ab0cf478",
+            "name": "ERR_INVALID_ROLE_ID"
+        },
+        {
+            "description": "Invalid MobileID",
+            "id": 48,
+            "item_id": "71420608-ec79-4ffc-9cde-588070d0927a",
+            "name": "ERR_INVALID_DESTINATION_ID"
+        },
+        {
+            "description": "A database record already exists.",
+            "id": 27,
+            "item_id": "73dafe43-2405-48c8-8d82-81762ae7b3e7",
+            "name": "ERR_RECORD_ALREADY_EXISTS"
+        },
+        {
+            "description": "MobileID does not belong to the Mailbox ",
+            "id": 514,
+            "item_id": "7a1f790b-018d-48a3-8949-d2d674f4dd75",
+            "name": "ERR_INVALID_TERMINAL_ID_NOT_YOUR_TERMINAL"
+        },
+        {
+            "description": "Non delivery notification reason: failed to update the current beam number.",
+            "id": 21787,
+            "item_id": "7b2e541a-6606-4d16-bce5-e6861e4d4efe",
+            "name": "ERR_NDN_FAILED_CURRENT_BEAM_UPDATE"
+        },
+        {
+            "description": "Mobile generated error: unknown message type",
+            "id": 12314,
+            "item_id": "7b360944-dc3b-495d-ac9f-bb4956ec050f",
+            "name": "ERR_MT_ERROR_UNKNOWN_MESSAGE_TYPE"
+        },
+        {
+            "description": "Duplicate login",
+            "id": 17667,
+            "item_id": "7cee35c2-a948-4be2-9287-19e94d1c5310",
+            "name": "ERR_DUPLICATE_LOGIN"
+        },
+        {
+            "description": "Unsupported Version; returned by the LES  or the  terminal",
+            "id": 257,
+            "item_id": "7e34437b-bb11-4e90-bb01-c368922803de",
+            "name": "ERR_INVALID_VERSION"
+        },
+        {
+            "description": "Unable to find a message with the specified ID.",
+            "id": 14,
+            "item_id": "7e50839d-0f73-48d7-af74-0dc80ae1dfda",
+            "name": "ERR_INVALID_MESSAGE_ID"
+        },
+        {
+            "description": "Failed to load the message from database",
+            "id": 21811,
+            "item_id": "7f4f5044-a6a1-4e26-9627-c48eacaca31f",
+            "name": "ERR_NDN_FAILED_TO_LOAD"
+        },
+        {
+            "description": "Forward traffic from MPC not allowed by operator",
+            "id": 17670,
+            "item_id": "86b97992-03d8-4bf8-9345-69edc10b1229",
+            "name": "ERR_VAR_TRAFFIC_OFF_BY_OP"
+        },
+        {
+            "description": "Gateway unable to send a forward message.",
+            "id": 43,
+            "item_id": "86ddc53e-67a3-4944-96ae-33410e3a46bf",
+            "name": "ERR_FW_UNABLE_TO_SEND_MESSAGE"
+        },
+        {
+            "description": "Received an unknown message type from the LES",
+            "id": 7,
+            "item_id": "88b5097b-f1cd-4552-8d97-761659e67718",
+            "name": "ERR_UNKNOWN_FW_MESSAGE_TYPE"
+        },
+        {
+            "description": "Non delivery notification reason: unknown",
+            "id": 21790,
+            "item_id": "88c11340-25da-498e-9e28-b06b0d471a91",
+            "name": "ERR_NDN_UNKNOWN_ERROR"
+        },
+        {
+            "description": "Invalid MPC ID",
+            "id": 258,
+            "item_id": "8b56a0d4-840b-4790-8724-214d8bf26d2e",
+            "name": "ERR_INVALID_PPC_ID"
+        },
+        {
+            "description": "Gateway not ready, please try again later.",
+            "id": 20,
+            "item_id": "8d4da6a8-11b4-42a0-8f96-7c585892b3a5",
+            "name": "ERR_GATEWAY_NOT_READY"
+        },
+        {
+            "description": "Non delivery notification reason: invalid priority",
+            "id": 21791,
+            "item_id": "8ea4f525-77fe-44b5-bd94-7aae392a7352",
+            "name": "ERR_NDN_INVALID_PRIORITY"
+        },
+        {
+            "description": "Message timeout  some attempts made but never received modems ACK, and later no chance to be transmitted",
+            "id": 21813,
+            "item_id": "8ecde6f3-82c8-41fa-8dd7-00fff744d26c",
+            "name": "ERR_NDN_TIMEOUT_SOME_ATTEMPTS_TO_TRANSMIT"
+        },
+        {
+            "description": "The specified Mailbox does not exist in the database.",
+            "id": 30,
+            "item_id": "9715a8ea-cf84-4854-87f7-8609b327119c",
+            "name": "ERR_CUSTOMER_DOES_NOT_EXIST"
+        },
+        {
+            "description": "MessageContent field of your message is empty, or the whole message is missing.",
+            "id": 5,
+            "item_id": "992514a7-5d58-4468-bdb8-cd45784b95fa",
+            "name": "ERR_FW_MESSAGE_MISSING"
+        },
+        {
+            "description": "Invalid message content - general",
+            "id": 17408,
+            "item_id": "99bcb822-6a49-4dba-ac4a-5b730b1933b0",
+            "name": "ERR_MESSAGE_CONTENT_IS_INVALID"
+        },
+        {
+            "description": "Customer/Terminal update access denied because they are under different operator.",
+            "id": 110,
+            "item_id": "9c321c93-1d06-4ec2-bf5f-d6dabc40d661",
+            "name": "ERR_INVALID_TERMINAL_CUSTOMER_COMBINATION"
+        },
+        {
+            "description": "Terminal was reset  some attempts made but never received modems ACK",
+            "id": 21816,
+            "item_id": "9e5c0190-cae6-41d3-9b72-70155915a125",
+            "name": "ERR_NDN_TERMINAL_RESET_SOME_ATTEMPTS_TO_TRANSMIT"
+        },
+        {
+            "description": "The connection with the MPC is disconnected",
+            "id": 17676,
+            "item_id": "a0d22a76-0c86-48f8-a2e8-a3242173dbcb",
+            "name": "ERR_VAR_DISCONNECTED_BY_OP"
+        },
+        {
+            "description": "Requested record does not exist in the database.",
+            "id": 28,
+            "item_id": "a6a0a136-8ffb-46fd-9fa2-3482f58b8e7f",
+            "name": "ERR_RECORD_DOES_NOT_EXIST"
+        },
+        {
+            "description": "Unregistered MobileID",
+            "id": 516,
+            "item_id": "a75877de-3fd4-4e0c-9d36-748cf7a9dae2",
+            "name": "ERR_TERMINAL_NOT_REGISTERED"
+        },
+        {
+            "description": "Broadcast ID is disabled.",
+            "id": 12312,
+            "item_id": "aa90a9df-8503-4bcd-93d3-8c8ad875d831",
+            "name": "ERR_BROADCAST_ID_IS_DISABLED"
+        },
+        {
+            "description": "One of API  parameters is empty or invalid.",
+            "id": 23,
+            "item_id": "ab120f58-4a01-48d4-9e09-4f7c8dc12910",
+            "name": "ERR_INVALID_INPUT_DATA"
+        },
+        {
+            "description": "Message closed because a terminal registration message was received.",
+            "id": 49,
+            "item_id": "acde286e-b248-450d-b2ed-5ce48075f53e",
+            "name": "ERR_MESSAGE_CLOSED_BECAUSE_OF_TERMINAL_RESET"
+        },
+        {
+            "description": "Not authorized to use this message priority",
+            "id": 17414,
+            "item_id": "afc4a334-4577-4011-b5e8-ab0af1404180",
+            "name": "ERR_NOT_AUTHORIZED_TO_USE_THE_PRIORITY"
+        },
+        {
+            "description": "Message timeout  some successful attempts made (modems ACK received), but later no chance to be transmitted",
+            "id": 21814,
+            "item_id": "afd134bb-de2d-4dc0-afba-6e440f0970e7",
+            "name": "ERR_NDN_TIMEOUT_SOME_ATTEMPTS_TO_TRANSMIT_ACKED"
+        },
+        {
+            "description": "The specified MobileID does not exist in the database.",
+            "id": 31,
+            "item_id": "b24e6115-e4ca-4510-8a90-2f7fbd6572a1",
+            "name": "ERR_TERMINAL_DOES_NOT_EXIST"
+        },
+        {
+            "description": "Non delivery notification reason: invalid beam number",
+            "id": 12308,
+            "item_id": "b5dd1a9e-d223-4643-9f58-539deefb1daf",
+            "name": "ERR_NDN_INVALID_BEAM"
+        },
+        {
+            "description": "The message from MPC is too long",
+            "id": 17678,
+            "item_id": "bb844b18-13a4-4dad-a550-2d697b227695",
+            "name": "ERR_MESSAGE_TOO_LONG"
+        },
+        {
+            "description": "One of the API operation parameters has an invalid value.",
+            "id": 21786,
+            "item_id": "c1ed3a21-49da-4533-8f85-180e4727e004",
+            "name": "ERR_INVALID_WS_PARAMETER"
+        },
+        {
+            "description": "Invalid Message Type; returned by the LES  or the  terminal",
+            "id": 260,
+            "item_id": "c204e4c2-daeb-4313-9ead-28fe85d47621",
+            "name": "ERR_INVALID_MESSAGE_TYPE"
+        },
+        {
+            "description": "Gateway database error",
+            "id": 19,
+            "item_id": "c3b837d0-ca04-4809-85df-6503b145c504",
+            "name": "ERR_DB_ERROR"
+        },
+        {
+            "description": "Internal error - unable to obtain unique message ID.",
+            "id": 13,
+            "item_id": "c434e3de-9f08-4491-be33-e861633ce4f1",
+            "name": "ERR_UNABLE_TO_OBTAIN_MESSAGE_ID"
+        },
+        {
+            "description": "Maximum number of queued regular sized messages for this MobileID has been reached.",
+            "id": 21795,
+            "item_id": "c4d44643-1c77-4ecd-9ec0-6239d69dc546",
+            "name": "ERR_REGULAR_MESSAGE_SIZE_QUEUE_FULL"
+        },
+        {
+            "description": "Too many bad messages received from MPC",
+            "id": 17677,
+            "item_id": "c6e76116-75ed-4a2b-8735-29fb6c25a98c",
+            "name": "ERR_TOO_MANY_BAD_MESSAGES_RECEIVED"
+        },
+        {
+            "description": "Invalid Message format; returned by the LES  or the  terminal",
+            "id": 256,
+            "item_id": "c8bd2547-6098-43d7-812f-2fb7f17a0f6f",
+            "name": "ERR_INVALID_MESSAGE_FORMAT"
+        },
+        {
+            "description": "This API operation is not available any more.",
+            "id": 113,
+            "item_id": "c9c275d2-3345-4e42-a805-264cfec8facb",
+            "name": "ERR_WEB_SERVICE_OPERATION_DEPRECATED"
+        },
+        {
+            "description": "Gateway server Error",
+            "id": 18,
+            "item_id": "cab9d6cd-298e-4484-a312-36847df54cc0",
+            "name": "ERR_SERVER_STOPPED"
+        },
+        {
+            "description": "The first message received from MPC is not the MPC login message",
+            "id": 17675,
+            "item_id": "cc2e2cfe-ba0e-4f68-833e-4004acb355b5",
+            "name": "ERR_FIRST_VAR_MESSAGE_NOT_LOGIN"
+        },
+        {
+            "description": "MobileID not assigned to the Mailbox",
+            "id": 41,
+            "item_id": "cce7c6ce-1e4c-4492-8767-b834fcdb1846",
+            "name": "ERR_GW_VAR_ID_NOT_ASSIGNED"
+        },
+        {
+            "description": "General processing error",
+            "id": 17664,
+            "item_id": "d33f48da-5f93-4891-abf9-86eb040d4916",
+            "name": "ERR_PROCESSING_ERROR"
+        },
+        {
+            "description": "The maximum outstanding message length of virtual carrier reached",
+            "id": 17684,
+            "item_id": "d34b2cca-cc84-4087-93d2-57435efa8c55",
+            "name": "ERR_MAX_OUTSTANDING_MSG_LEN_OF_VC_REACHED"
+        },
+        {
+            "description": "Message cannot be cancelled because it has already been sent to its destination.",
+            "id": 17685,
+            "item_id": "d4437425-794d-4000-91c7-148820dde8b3",
+            "name": "ERR_MESSAGE_CANNOT_BE_CANCELLED_BECAUSE_ALREADY_SENT"
+        },
+        {
+            "description": "Invalid modem wake-up interval",
+            "id": 21810,
+            "item_id": "db315f59-4ff9-4b80-a680-6f129ca72881",
+            "name": "ERR_NDN_INVALID_MODEM_WI"
+        },
+        {
+            "description": "The user is not authorized for this gateway operation.",
+            "id": 104,
+            "item_id": "db37c789-6f5b-4084-8ad8-c32b0cec6260",
+            "name": "ERR_UNAUTHORIZED_FOR_THIS_OPERATION"
+        },
+        {
+            "description": "No earth station route to terminal",
+            "id": 17151,
+            "item_id": "dce5a616-12df-4eb3-b9b1-85530c0fedaf",
+            "name": "ERR_NO_EARTHSTATION_ROUTE_TO_DESTINATION"
+        },
+        {
+            "description": "Maximum retry or overflow of first packet of low-power message exhausted",
+            "id": 21809,
+            "item_id": "e1c1e0be-0fb7-482e-af5a-ead2b075b24e",
+            "name": "ERR_NDN_MAX_RETRY_EXHAUSTED"
+        },
+        {
+            "description": "Invalid VAIN",
+            "id": 17154,
+            "item_id": "e44777ce-7942-4e99-a608-91c67a18c530",
+            "name": "ERR_INVALID_VAIN"
+        },
+        {
+            "description": "Gateway was not able to calculate delivery time for this low power terminal message.",
+            "id": 114,
+            "item_id": "e471e1e6-2aa7-47f7-887e-9a8ff9a402db",
+            "name": "ERR_DND_UNABLE_TO_SCHEDULE"
+        },
+        {
+            "description": "GW server error - unacked MPC packet not found.",
+            "id": 42,
+            "item_id": "e63fcad7-b151-4505-b51c-45b03ce0b2ad",
+            "name": "ERR_FW_UNACKED_PACKET_NOT_FOUND"
+        },
+        {
+            "description": "Non delivery notification reason: initial system state",
+            "id": 21789,
+            "item_id": "e76add6b-64dc-41a7-8c2a-78b1958fae45",
+            "name": "ERR_NDN_INITIAL_SYSTEM_STATE"
+        },
+        {
+            "description": "MTBP session cleared while waiting for an ACK",
+            "id": 21818,
+            "item_id": "e94df159-fac5-4a5b-bee5-60dfb1072c55",
+            "name": "ERR_MTBP_SESSION_CLEARED"
+        },
+        {
+            "description": "Maximum number of queued large messages for this MobileID has been reached.",
+            "id": 21796,
+            "item_id": "edb5b9c4-c440-499d-8fc2-bd9a3a0bd13c",
+            "name": "ERR_LARGE_MESSAGE_SIZE_QUEUE_FULL"
+        },
+        {
+            "description": "Non delivery notification reason: message time out",
+            "id": 12309,
+            "item_id": "f148572b-b937-4098-aa26-2bb99cb08c3e",
+            "name": "ERR_NDN_TIMED_OUT"
+        },
+        {
+            "description": "This mailbox is not authorised to send this type of message",
+            "id": 2,
+            "item_id": "f5f5129e-671d-4d72-88e5-8ad419b4eb69",
+            "name": "ERR_INVALID_MESSAGE"
+        },
+        {
+            "description": "Invalid user name or password",
+            "id": 17668,
+            "item_id": "f7079442-8b09-4ee4-a1a5-79a77e05cc29",
+            "name": "ERR_INVALID_USER_OR_PASSWORD"
+        },
+        {
+            "description": "Invalid timestamp format. (yyyy-mm-dd hh:mm:ss)",
+            "id": 17,
+            "item_id": "f7b93070-366a-4104-91f0-a12b8ab466ab",
+            "name": "ERR_INVALID_INPUT_PARAMETER_TIMESTAMP_FORMAT"
+        },
+        {
+            "description": "Message content is not valid.",
+            "id": 3,
+            "item_id": "f8c57927-fa13-4a6e-a452-d4b2c888eb6a",
+            "name": "ERR_INVALID_MESSAGE_CONTENT"
+        },
+        {
+            "description": "Invalid broadcast ID or the ID belongs to another Mailbox",
+            "id": 21793,
+            "item_id": "fa2ef918-e738-4775-91f2-bab3e7e91fdd",
+            "name": "ERR_INVALID_BROADCAST_ID_NOT_YOUR_ID"
+        },
+        {
+            "description": "MobileID is disabled",
+            "id": 12311,
+            "item_id": "fb6ee294-84d3-493b-97ac-7c6c427438da",
+            "name": "ERR_TERMINAL_IS_DISABLED"
+        }
+    ],
+    "name": "idp_api_error_codes",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 5
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
