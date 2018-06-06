@@ -1,0 +1,205 @@
+{
+    "Description": "Default role that is applied to a user who has rights to everything",
+    "ID": "Administrator",
+    "Name": "Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "ChangeLoraTrackingRate",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "devices_resetLocations",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "generateDeviceMovements",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "globalsat_alert",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "idp_get_error_def",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "message_monitorSafetyPolygons",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "message_polygonsProcessor",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "message_publishPolygons",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_devicesList",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "80f7fc9e0bda9390fcece4b9bdfb01",
+                "Items": [],
+                "Level": 15,
+                "Name": "80f7fc9e0bda9390fcece4b9bdfb01"
+            },
+            {
+                "Columns": [],
+                "ID": "88edfc9e0b9cfccd93ea8ce2eafc01",
+                "Items": [],
+                "Level": 15,
+                "Name": "88edfc9e0b9cfccd93ea8ce2eafc01"
+            },
+            {
+                "Columns": [],
+                "ID": "8cf1fc9e0bf0f3e3c1b9d6c2fc9101",
+                "Items": [],
+                "Level": 15,
+                "Name": "8cf1fc9e0bf0f3e3c1b9d6c2fc9101"
+            },
+            {
+                "Columns": [],
+                "ID": "b4a7c0b10b92c5b5d4d1b0faf6db01",
+                "Items": [],
+                "Level": 15,
+                "Name": "IdpRawMessages"
+            },
+            {
+                "Columns": [],
+                "ID": "d2a7c0b10bd2a3b28388d2bbf09201",
+                "Items": [],
+                "Level": 15,
+                "Name": "IdpRestApiCalls"
+            },
+            {
+                "Columns": [],
+                "ID": "e8a9c0b10be4cfef94fccf96c5d501",
+                "Items": [],
+                "Level": 15,
+                "Name": "Mailboxes"
+            },
+            {
+                "Columns": [],
+                "ID": "eca9c0b10bb29cf5e7fb839bf58301",
+                "Items": [],
+                "Level": 15,
+                "Name": "Mobiles"
+            },
+            {
+                "Columns": [],
+                "ID": "a0eec0a20be0858c8493958591de01",
+                "Items": [],
+                "Level": 15,
+                "Name": "a0eec0a20be0858c8493958591de01"
+            },
+            {
+                "Columns": [],
+                "ID": "aad3f6a10bf4ecc7b6efe7ff93a401",
+                "Items": [],
+                "Level": 15,
+                "Name": "aad3f6a10bf4ecc7b6efe7ff93a401"
+            },
+            {
+                "Columns": [],
+                "ID": "c8f8fc9e0bfebe82e4f4dfa4b9f601",
+                "Items": [],
+                "Level": 15,
+                "Name": "c8f8fc9e0bfebe82e4f4dfa4b9f601"
+            },
+            {
+                "Columns": [],
+                "ID": "e4e6f6a10b88ef9390c3b4f6f121",
+                "Items": [],
+                "Level": 15,
+                "Name": "e4e6f6a10b88ef9390c3b4f6f121"
+            },
+            {
+                "Columns": [],
+                "ID": "f8a9c0b10bdadaf4b9d8a7a5e2f101",
+                "Items": [],
+                "Level": 15,
+                "Name": "geofences"
+            },
+            {
+                "Columns": [],
+                "ID": "fca9c0b10b9a8eb6b5f08ff6dd1d",
+                "Items": [],
+                "Level": 15,
+                "Name": "idp_api_error_codes"
+            },
+            {
+                "Columns": [],
+                "ID": "80aac0b10b90b9a4e3c8fcf8dc19",
+                "Items": [],
+                "Level": 15,
+                "Name": "properties"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 15
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 15
+        },
+        "Portals": [
+            {
+                "Level": 15,
+                "Name": "IDP Demo 1",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 15,
+                "Name": "Dev Asset Tracking Portal",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            },
+            {
+                "Level": 15,
+                "Name": "Asset Tracking Portal",
+                "SystemKey": "a4a7c0b10b9680b5a1f6e19c945e"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
