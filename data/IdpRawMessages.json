@@ -1,0 +1,111 @@
+{
+    "app_id": "a4a7c0b10b9680b5a1f6e19c945e",
+    "collection_id": "b4a7c0b10b92c5b5d4d1b0faf6db01",
+    "items": [],
+    "name": "IdpRawMessages",
+    "permissions": {
+        "Administrator": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "msg_id",
+            "ColumnType": "bigint",
+            "PK": false
+        },
+        {
+            "ColumnName": "mobile_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "msg_sin",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "msg_min",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "mo_msg",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "mt_status_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "mt_status_desc",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "msg_rawpayload_b64",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "msg_size_ota",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "wakeup_period",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "scheduled_send",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "user_msg_id",
+            "ColumnType": "bigint",
+            "PK": false
+        },
+        {
+            "ColumnName": "mt_status_timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "mt_is_closed",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "mt_refno",
+            "ColumnType": "bigint",
+            "PK": false
+        },
+        {
+            "ColumnName": "mt_error_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "access_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "json_payload",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
