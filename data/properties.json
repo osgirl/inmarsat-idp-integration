@@ -1,0 +1,84 @@
+{
+    "app_id": "a4a7c0b10b9680b5a1f6e19c945e",
+    "collection_id": "80aac0b10b90b9a4e3c8fcf8dc19",
+    "items": [
+        {
+            "item_id": "01c1762b-21dc-4566-892b-7a0da2b81f3f",
+            "property_name": "css",
+            "property_value": "[\"//api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css\", \"//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.css\"]"
+        },
+        {
+            "item_id": "050f0aa4-363a-4e95-98b9-b1e8b5d8c76f",
+            "property_name": "finalzoom",
+            "property_value": "5"
+        },
+        {
+            "item_id": "21d4261b-2f31-4188-baa6-f48ef5fa6d82",
+            "property_name": "map_showmouselatlng",
+            "property_value": "true"
+        },
+        {
+            "item_id": "33070b5b-8a06-4941-959a-409c874be629",
+            "property_name": "finalcenter",
+            "property_value": "[0,0]"
+        },
+        {
+            "item_id": "56366109-35a0-4749-b3e5-9eb9a511cb42",
+            "property_name": "map_center",
+            "property_value": "[50,50]"
+        },
+        {
+            "item_id": "590fdf74-5c83-4514-8a57-ab21bbf4614d",
+            "property_name": "transitionspeed",
+            "property_value": "2"
+        },
+        {
+            "item_id": "6b363cc9-31f6-4d08-83f0-a3a03965be45",
+            "property_name": "js",
+            "property_value": "[\"//code.jquery.com/jquery-3.2.1.slim.min.js\", \"//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js\", \"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js\", \"//api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js\", \"//api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.js\"]"
+        },
+        {
+            "item_id": "70033eac-5950-4639-b25f-9db3cbf8d06d",
+            "property_name": "initialzoom",
+            "property_value": "0"
+        },
+        {
+            "item_id": "c749e762-72bd-48f0-a952-b86bc1fb4c94",
+            "property_name": "mapbox_api_key",
+            "property_value": "pk.eyJ1IjoicnJlaW5vbGQiLCJhIjoiY2lwOTllOGQ2MDB4Y2VhbnJnMWtzcW9qaiJ9.1mNTDQ5rwabgUL9onzaLxg"
+        },
+        {
+            "item_id": "d01b18d9-0ef2-4d76-849e-bd3d9d1f47d1",
+            "property_name": "radar_url",
+            "property_value": "//radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=LNX\u0026brand=wui\u0026num=6\u0026delay=60\u0026type=N0R\u0026frame=0\u0026scale=1.000\u0026noclutter=1\u0026showstorms=0\u0026mapx=400\u0026mapy=240\u0026centerx=400\u0026centery=240\u0026transx=0\u0026transy=0\u0026showlabels=1\u0026severe=1\u0026rainsnow=1\u0026lightning=1\u0026smooth=1\u0026rand=25162016\u0026lat=41.13000107\u0026lon=-100.76999664\u0026label=North+Platte"
+        },
+        {
+            "item_id": "fb5b4236-e331-462f-b7c7-9a6d17ab9b70",
+            "property_name": "mappitch",
+            "property_value": "0"
+        }
+    ],
+    "name": "properties",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "property_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "property_value",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
