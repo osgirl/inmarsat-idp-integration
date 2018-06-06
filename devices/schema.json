@@ -1,0 +1,49 @@
+{
+    "columns": [
+        {
+            "ColumnName": "lastname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lastupdate",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "move",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "phone",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "firstname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lng",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "device_uid",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
