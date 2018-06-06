@@ -1,0 +1,14 @@
+{
+    "architecture": "linux32arm",
+    "deploy_command": "",
+    "description": "Virtual slave proxy compatible with RPi",
+    "logs_command": "",
+    "name": "ModbusSlave",
+    "os": "",
+    "protocol": "",
+    "start_command": "",
+    "status_command": "",
+    "stop_command": "",
+    "undeploy_command": "",
+    "version": 1
+}
